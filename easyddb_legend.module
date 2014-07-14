@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the easyddb_legend feature.
+ */
+
+include_once 'easyddb_legend.features.inc';
