@@ -1,5 +1,5 @@
-name = EasyDDB Frontend
-description = Various customisations for frontend
+name = EasyDDB Legend
+description = Display availability legend on item landing page
 core = 7.x
 package = easyddb
 version = 7.x-0.1
