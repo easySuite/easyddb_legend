@@ -1,8 +1,8 @@
-name = EasyDDB Legend
+name = Availability Legends
 description = Display availability legend on item landing page
 core = 7.x
-package = easyddb
-version = 7.x-0.1
+package = easyDDB
+version = 7.x-1.0
 project = easyddb_legend
 dependencies[] = ding_availability
 features[features_api][] = api:1
