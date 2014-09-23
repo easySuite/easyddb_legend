@@ -57,5 +57,5 @@ function easyddb_legend_features_override_default_overrides() {
   $overrides["page_manager_handlers.ting_object_panel_context.conf|display|panels|main_content|0"] = 'new-6';
   $overrides["page_manager_handlers.ting_object_panel_context.conf|display|panels|main_content|1"] = 'new-4';
 
- return $overrides;
+  return $overrides;
 }
