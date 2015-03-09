@@ -1,5 +1,5 @@
-name = easyDDB Availability Legends
-description = Display availability legend on item pages
+name = easyDDB Availability Legend
+description = Display availability legend on ting item pages
 core = 7.x
 package = easyDDB
 version = 7.x-1.0.1
