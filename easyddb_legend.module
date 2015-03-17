@@ -16,13 +16,15 @@ function easyddb_legend_preprocess_25_50_25(&$variables) {
     return;
   }
 
+  drupal_add_js(drupal_get_path('module', 'easyddb_legend') . '/js/easyddb_legend.scripts.js');
+
   $block = module_invoke('ding_availability', 'block_view', '');
   $availability_legend_markup =
-  '<div class="panel-pane pane-block pane-ding-availability-legend">' .
-  '<div class="pane-content">' .
-  render($block['content']) .
-  '</div>' .
-  '</div>';
+    '<div class="panel-pane pane-block pane-ding-availability-legend">' .
+    '<div class="pane-content">' .
+    render($block['content']) .
+    '</div>' .
+    '</div>';
 
   $existing_content = $variables['content']['main_content'];
   $variables['content']['main_content'] = $availability_legend_markup . $existing_content;
