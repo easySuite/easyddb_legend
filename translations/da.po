@@ -1,0 +1,31 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: easyddb_legend.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-02-19 16:14+0100\n"
+"PO-Revision-Date: 2015-02-20 15:35+0100\n"
+"Last-Translator: Martin Cording <mc@inlead.dk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: da\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: easyddb_legend.info:0
+msgid "easyDDB Availability Legends"
+msgstr "Tilgængelighedsindikatorer"
+
+#: easyddb_legend.info:0
+msgid "Display availability legend on item landing page"
+msgstr "Vis indikatorer for de forskellige tilængeligheder"
+
+#: easyddb_legend.info:0
+msgid "easyDDB"
+msgstr ""

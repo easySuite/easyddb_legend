@@ -4,4 +4,28 @@
  * Code for the easyddb_legend feature.
  */
 
-include_once 'easyddb_legend.features.inc';
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function easyddb_legend_preprocess_25_50_25(&$variables) {
+  $search_result = arg(0) == 'search' && arg(1) == 'ting';
+  $collection_page = arg(0) == 'ting' && arg(1) == 'collection';
+  $object_page = arg(0) == 'ting' && arg(1) == 'object';
+
+  if (!$search_result && !$collection_page && !$object_page) {
+    return;
+  }
+
+  drupal_add_js(drupal_get_path('module', 'easyddb_legend') . '/js/easyddb_legend.scripts.js');
+
+  $block = module_invoke('ding_availability', 'block_view', '');
+  $availability_legend_markup =
+    '<div class="panel-pane pane-block pane-ding-availability-legend">' .
+    '<div class="pane-content">' .
+    render($block['content']) .
+    '</div>' .
+    '</div>';
+
+  $existing_content = $variables['content']['main_content'];
+  $variables['content']['main_content'] = $availability_legend_markup . $existing_content;
+}
