@@ -17,6 +17,7 @@ function easyddb_legend_preprocess_25_50_25(&$variables) {
   }
 
   drupal_add_js(drupal_get_path('module', 'easyddb_legend') . '/js/easyddb_legend.scripts.js');
+  drupal_add_css(drupal_get_path('module', 'easyddb_legend') . '/css/easyddb_legend.css');
 
   $block = module_invoke('ding_availability', 'block_view', '');
   $availability_legend_markup =
