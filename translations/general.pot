@@ -2,13 +2,13 @@
 #
 # LANGUAGE translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: easyddb_legend.info: n/a
+# Generated from file: profiles/ding2/modules/easyddb_legend/easyddb_legend.info: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-03-09 14:41+0100\n"
+"POT-Creation-Date: 2015-07-28 11:39+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: easyddb_legend.info:0
+#: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
 msgid "easyDDB Availability Legend"
 msgstr ""
 
-#: easyddb_legend.info:0
+#: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
 msgid "Display availability legend on ting item pages"
 msgstr ""
 
-#: easyddb_legend.info:0
+#: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
 msgid "easyDDB"
 msgstr ""
 
