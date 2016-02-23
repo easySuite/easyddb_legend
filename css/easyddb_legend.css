@@ -40,3 +40,26 @@
 .availability-legend-item.unreservable img {
   background-color: #a32e10; /* Red */
 }
+
+.pane-ding-availability-legend .availability-legend .availability-legend-item {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 10px 10px 0;
+  padding: 5px;
+  line-height: normal;
+}
+
+div.pane-ding-availability-legend .availability-legend {
+  float: none;
+}
+
+div.pane-ding-availability-legend .availability-legend .availability-legend-item {
+  margin: 0 10px 10px 0;
+}
+
+div.pane-ding-availability-legend .availability-legend .availability-legend-item .availability-label {
+  color: #fff;
+  font-weight: 400;
+  font-size: 100%;
+}
