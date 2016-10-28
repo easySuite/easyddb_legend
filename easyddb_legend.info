@@ -1,7 +1,7 @@
 name = easyDDB Availability Legend
 description = Display availability legend on ting item pages
 core = 7.x
-package = easyDDB
+package = easyOPAC
 version = 7.x-2.4.4+easy
 project = easyddb_legend
 dependencies[] = ding_availability
