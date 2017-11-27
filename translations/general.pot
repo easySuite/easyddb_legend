@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
-msgid "easyDDB Availability Legend"
+msgid "easyOPAC Availability Legend"
 msgstr ""
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
@@ -26,6 +26,6 @@ msgid "Display availability legend on ting item pages"
 msgstr ""
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
-msgid "easyDDB"
+msgid "easyOPAC"
 msgstr ""
 
