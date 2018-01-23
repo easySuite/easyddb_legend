@@ -20,7 +20,7 @@ msgstr ""
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
 #, fuzzy
-msgid "easyDDB Availability Legend"
+msgid "easyOPAC Availability Legend"
 msgstr "Tilgængelighedsindikatorer"
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
@@ -29,5 +29,5 @@ msgid "Display availability legend on ting item pages"
 msgstr "Vis indikatorer for de forskellige tilængeligheder"
 
 #: profiles/ding2/modules/easyddb_legend/easyddb_legend.info:0
-msgid "easyDDB"
+msgid "easyOPAC"
 msgstr ""

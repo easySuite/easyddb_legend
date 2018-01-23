@@ -1,4 +1,4 @@
-easyDDB Availability Legend
+easyOPAC Availability Legend
 ==========
 
 Display availability legend on ting search, ting object and ting collection pages.
