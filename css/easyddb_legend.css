@@ -21,15 +21,19 @@
   float: left;
   border-radius: 5px;
 }
-
+.availability.available,
+.availability.available.reservable,
 .availability-legend-item.available img {
   background-color: #528c10; /* Green */
 }
 
+.availability.reservable,
 .availability-legend-item.on-loan img {
   background-color: #f0cb28; /* Yellow */
 }
 
+.availability.unavailable,
+.availability.unreservable,
 .availability-legend-item.unavailable img {
   background-color: #a32e10; /* Red */
 }
@@ -42,6 +46,7 @@
   background-color: #a32e10; /* Red */
 }
 
+.availability.pending,
 .availability-legend-item.pending img {
   background-color: #6d96E6;
 }
@@ -76,24 +81,4 @@ div.pane-ding-availability-legend .availability-legend .availability-legend-item
   display: inline-block;
   text-decoration: underline;
   margin: 2px 0 !important;
-}
-
-.availability.available {
-  background-color: #528c10;
-}
-.availability.available.reservable {
-  background-color: #528c10;
-}
-
-.availability.pending {
-  background-color: #6d96E6;
-}
-
-.availability.reservable {
-  background-color: #f0cb28;
-}
-
-.availability.unavailable,
-.availability.unreservable {
-  background-color: #a32e10;
 }
