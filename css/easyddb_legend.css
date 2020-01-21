@@ -28,20 +28,15 @@
 }
 
 .availability.reservable,
+.availability.unavailable.reservable,
 .availability-legend-item.on-loan img {
   background-color: #f0cb28; /* Yellow */
 }
 
 .availability.unavailable,
 .availability.unreservable,
-.availability-legend-item.unavailable img {
-  background-color: #a32e10; /* Red */
-}
-
-.availability-legend-item.unavailable.netdokument img {
-  background-color: #a32e10; /* Red */
-}
-
+.availability.unavailable.unreservable,
+.availability-legend-item.unavailable img,
 .availability-legend-item.unreservable img {
   background-color: #a32e10; /* Red */
 }
