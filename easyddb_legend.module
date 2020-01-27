@@ -10,9 +10,8 @@
 function easyddb_legend_preprocess_25_50_25(&$variables) {
   $search_result = arg(0) == 'search' && arg(1) == 'ting';
   $collection_page = arg(0) == 'ting' && arg(1) == 'collection';
-  $object_page = arg(0) == 'ting' && arg(1) == 'object';
 
-  if (!$search_result && !$collection_page && !$object_page) {
+  if (!$search_result && !$collection_page) {
     return;
   }
 
